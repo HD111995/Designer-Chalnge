@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+/* Farben: #0b0c17 / #ff3571 / #dddddd / #3C30FF / #FFF / #000
+ */
+ /* html Rendering */
+ body , section ,main,header,footer {
+     margin: 0;
+     padding:0;
+   
+ }
+ body{
+     background-color:#e9e8e841;
+ }
+ /* Global Stylings */
+ img{
+     width:40px;
+ }
+ h2{
+     font-size:64px;
+     font-family:'Roboto', sans-serif;
+ }
+ h6{
+    font-size:21px;
+    font-family:'Roboto', sans-serif;
+}
+h5{
+    font-size:64px;
+    font-family:'Roboto', sans-serif;
+    color:#dddddd;
+}
+p{
+    font-size:17px;
+    font-family:'Roboto', sans-serif;
+    color: #0b0c17; 
+}
+/* End of the Global Styling */
+/* Header Styling */
+header{
+    background: url('../img/ilustracion1.png')no-repeat;
+    background-size:contain;
+    background-position:right top;
+    position:relative;
+    }
+header>nav{
+    display:flex;
+   padding-left:40px;
+}
+/* Logo Styling */
+nav>div{
+    margin-left:10px;
+}
+nav>img{
+    width:35px;
+}
+header>nav>div>h3{
+    font-size:22px;
+    font-family:'Roboto', sans-serif; 
+    margin-bottom:0;
+}
+header>nav>div>p{
+    display:block;
+    margin-top:0;
+    font-size:13px;
+}
+/* Logo Styling End */
+header>div{
+    width:600px;
+    margin-left:8%;
+    margin-top:25vh;
+}
+header>div>h1{
+    font-size:64px;
+    font-family:'Roboto', sans-serif;
+    margin-bottom:0;  
+}
+header>div>p{
+    font-size:22px;
+    font-family:'Roboto', sans-serif;
+}
+header>div>p>img{
+    width:30px;
+}
+header>div>h4{
+    font-size:14px;
+    font-family:'Roboto', sans-serif;
+    color:#ff3571;
+    margin-top:15vh;
+    margin-bottom: 0;;
+}
+#human{
+    width:700px;
+    position:absolute;
+    top:4vh;
+    right:4vh;
+    margin:0;
+}
+/* End of the Header Styling */
+/* Styling of the Section show begin */
+.show>img{
+    margin-top:15vh;
+    width:100vw;
+}
+/* Section show Styling End */
+/* Section idea Styling Start here */
+.idea{
+    display:flex;
+    flex-direction: column;
+}
+.idea>div{
+    margin-top:40vh;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.idea>div>h2{
+    width:25vw;
+    font-size:54px;
+    margin-top:0;
+    margin-left:10vw;
+}
+.idea>div>h2>img{
+    width:60px;
+}
+.idea>div>p{
+    width:38vw;
+    font-size:16px;
+    line-height:30px;
+    margin-right:10vw;
+}
+.idea>h2{
+    margin-top:15vh;
+    margin-left:13vw;
+    width:50vw;
+    font-size:54px;
+}
+/* idea Section Styling End */
+/* Section title Styling begin */
+
+.title>article{
+    display:flex;
+    justify-content:space-around;
+    padding:0 10vw;;
+}
+.title-1{
+    margin-top:20vh;
+    margin-bottom:10vh;
+}
+.title-2{
+    margin-bottom:20vh;
+}
+.title>article>div{
+    width:28vw;
+    padding:0;
+}
+.title>article>div>h6{
+    display:inline;
+    margin-left:20px;
+}
+.title>article>div>p{
+    display:block;
+    margin-left:20px;
+    line-height:35px;
+}
+.title>article>div>img{
+    margin-left:-40px;
+    width:30px;
+}
+/* Section title Styling End */
+/* here Start Styling Section go */
+.go>div{
+    text-align:center;
+}
+.go>div>p{
+    font-size:24px;
+    line-height:34px;
+}
+.go-find{
+    background:url('../img/step01.png')no-repeat;
+}
+.go-think{
+    background:url('../img/step02.png')no-repeat;
+}
+.go-design{
+    background:url('../img/step03.png')no-repeat;
+}
+.go-share{
+    background:url('../img/step04.png')no-repeat;
+}
+.go>article{
+    margin-bottom:20vh;
+}
+.go article:nth-child(even) {
+    background-position-x:170px;
+    background-size:contain;
+}
+.go article:nth-child(odd){
+    background-position-x:60vw;
+    background-size:contain;
+}
+.go>article>div{
+    width:40vw;
+}
+.go article:nth-child(even)>div{
+    margin-left:auto;
+    margin-right:5vw;
+}
+.go article:nth-child(odd)>div{
+ margin-left:10vw;
+}
+.go>article>div>img,p,h6{
+    margin-bottom:0;
+    margin-top:3vh;
+}
+.go>article>div>p{
+    line-height:34px;
+}
+.go>article>div>h5{
+    margin-bottom:7vh;
+}
+/* Section go Styling End right here */
+/* footer Stylings */
+footer{
+    text-align:center;
+
+}
+footer>p{
+    font-size:25px;
+
+}
+footer>h2{
+    margin-bottom:5vh;
+}
+input[type="email"]{
+    margin-top:5vh;
+    width:46vw;
+    height:10vh;
+    border:hidden;
+    background-color:white;
+    font-size:26px;
+    text-align:center;
+    border-radius:10px;
+}
+input[type="button"]{
+    display:block;
+    margin-left:42.5vw;
+    margin-top:5vh;
+    width:15vw;
+    height:7vh;
+    color:white;
+    font-size:18px;
+    background-color:#ff3571;
+    border:hidden;
+}
+input[type="button"]:hover{
+    background-image:linear-gradient(to right ,#ff3571,#3C30FF)
+}
+footer>div{
+    float:left;
+    margin-top:15vh;
+    margin-left:10vw;
+}
+footer>div>p{
+    display:inline;
+}
+footer>div>img{
+    width:30px;
+}
+/* The End Of Styling */
